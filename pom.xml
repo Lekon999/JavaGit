@@ -17,7 +17,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.7.0</version>
+            <version>5.9.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -64,7 +64,7 @@
                                     <limits>
                                         <limit>
                                             <counter>BRANCH</counter>
-                                            <value>COVEREDRATIO</value>
+                                            <value>COVERED-RATIO</value>
                                             <minimum>100%</minimum>
                                         </limit>
                                     </limits>
