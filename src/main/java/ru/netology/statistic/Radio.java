@@ -18,18 +18,18 @@ public class Radio {
 
 
     public void next () {
-        if (currentStation != 9) {
+        if (currentStation < 9) {
             currentStation++;
-            return;
+//            return;
         }
-        currentStation = 0;
+//        currentStation = 0;
     }
 
     public void prev () {
-        if (currentStation != 0) {
+        if (currentStation > 0) {
             currentStation--;
-        } else {
-            currentStation = 9;
+//        } else {
+//            currentStation = 9;
         }
     }
 
